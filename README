@@ -5,7 +5,7 @@
 Config:
 ######
 
-- Create a directory where you will keep your names saves
+- Create a directory where you will keep your named saves
 
 - In 'config.bat' file change 'set saveFolder=D:\Speedrun\LN.Save.Organizer' folowing the path of your directory create juste before
 
@@ -15,9 +15,9 @@ Config:
 How to use:
 ##########
 
-- Go to saveorganizer folder in file explorer
+- Go to 'LN2SaveOrganizer-1.2' folder in file explorer
 - in path bar, type cmd
-    open you a terminal in the saveorganizer folder where you will use bat file
+    open you a terminal in the 'LN2SaveOrganizer-1.2' folder where you will use bat file
 
 
 createSave.bat:
