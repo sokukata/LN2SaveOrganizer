@@ -1,0 +1,70 @@
+#################
+# SaveOrganizer #
+#################
+
+Config:
+######
+
+- Create a directory where you will keep your names saves
+
+- In 'config.bat' file change 'set saveFolder=D:\Speedrun\LN.Save.Organizer' folowing the path of your directory create juste before
+
+- In 'config.bat' the 'ln2Saves' have the default Little Nightmare 2 saves folder, don't change it
+
+
+How to use:
+##########
+
+- Go to saveorganizer folder in file explorer
+- in path bar, type cmd
+    open you a terminal in the saveorganizer folder where you will use bat file
+
+
+createSave.bat:
+##############
+
+Use to create a new save in your saveFolder
+
+createSave <SaveName> <SaveNumber>
+
+SaveName -> Give a unique name of this save. after creation in your saveFolder create before you will see a directory with this name and containing a save
+
+SaveNumber -> Specified which save slot should be copied:
+                0 -> save 1
+                1 -> save 2
+                2 -> save 3
+
+
+example:
+-------
+
+createSave.bat hunter 2                 <- create folder named 'hunter' in you saveFolder with the save of your actual in game 'save 3' slot
+
+createSave.bat classroom 0              <- create folder named 'classroom' in you saveFolder with the save of your actual in game 'save 1' slot
+
+createSave.bat sokuBaguetteOuiOui 1     <- create folder named 'sokuBaguetteOuiOui' in you saveFolder with the save of your actual in game 'save 2' slot
+
+
+
+loadSave.bat:
+############
+
+Use to load save from your saveFolder
+
+loadSave.bat <SaveName>
+
+SaveName -> Give the name of a folder in your saveFolder. (often a folder create previously by createSave.bat)
+
+
+
+Take care, save will overwrite the slot from where there where copy originaly
+
+
+example:
+-------
+
+loadSave.bat hunter                 <- Load Save save in the folder 'hunter' in your saveFolder. If that the same folder of the createSave.bat example, that will overwrite in game 'save 3' slot
+
+loadSave.bat classroom              <- Load Save save in the folder 'classroom' in your saveFolder. If that the same folder of the createSave.bat example, that will overwrite in game 'save 1' slot
+
+loadSave.bat sokuBaguetteOuiOui     <- Load Save save in the folder 'sokuBaguetteOuiOui' in your saveFolder. If that the same folder of the createSave.bat example, that will overwrite in game 'save 2' slot
