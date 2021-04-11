@@ -49,7 +49,9 @@ createSave.bat sokuBaguetteOuiOui 1     <- create folder named 'sokuBaguetteOuiO
 loadSave.bat:
 ############
 
-Use to load save from your saveFolder
+Use to load save from your saveFolder.
+To be sure go back main menu before load save
+After save loaded, be sure to load the good Save slot (or only Resume if you know you already use the save slot overwrited)
 
 loadSave.bat <SaveName>
 
